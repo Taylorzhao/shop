@@ -39,7 +39,7 @@
                                 </label>
                                 <div class="am-u-sm-9">
                                     <input type="text" class="tpl-form-input" name="store[notice]"
-                                           value="<?= $values['notice'] ?>">
+                                           value="<?= empty($values['notice'])?"":$values['notice'] ?>">
                                 </div>
                             </div>
                             <div class="am-form-group">
